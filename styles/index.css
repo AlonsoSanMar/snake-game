@@ -1,0 +1,62 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: #afdde5;
+    font-family: monospace;
+}
+
+#titulo{
+    position: absolute;
+    top: 0;
+    font-size: 32px;
+}
+
+#display{
+    margin: 10px;
+    display: none;
+}
+
+#score{
+    font-size: 32px;
+    margin: 10px;
+    justify-self: center;
+    align-self: center;
+}
+
+canvas{
+    border: 5px ridge white;
+    box-shadow: 5px 10px 5px black;
+}
+
+#jugar{
+    font-size: 24px;
+    padding: 10px;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    background-color: #963734;
+    color: white;
+    transition: transform 0.2s;
+}
+
+#jugar:hover{
+    transform: scale(1.1);
+}
+
+.instrucciones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+#cont-instrucciones{
+    position: absolute;
+    bottom: 60px;
+    font-size: 16px;
+}
